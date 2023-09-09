@@ -6,5 +6,10 @@
         {
             "path": "../DSA"
         }
-    ]
+    ],
+    "settings": {
+        "files.associations": {
+            "stdio.h": "c"
+        }
+    }
 }
