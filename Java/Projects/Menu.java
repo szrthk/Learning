@@ -8,6 +8,22 @@ public class Menu {
 
        if(i == 1){
             System.out.println("Enter your Marks");
+            int m =  sc.nextInt();
+            do { 
+                System.out.println("This is good");
+                
+            } while (m >= 90);
+
+            do {
+                System.out.println("This is also good");
+                
+            } while ( m >=60 );
+
+            do {
+                System.out.println("This is good as well");
+                
+            } while ( m >= 0) ;
+            
        } else if ( i == 2){
         System.out.println("You stopped the menu.");
        } else {
